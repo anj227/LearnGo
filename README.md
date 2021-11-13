@@ -2,7 +2,6 @@
 
 Current version installed:
 $ go version
-go version go1.13.6 darwin/amd64
 
 Learning Go using various resources:
 1. CodeAcademy
@@ -14,6 +13,10 @@ Learning Go using various resources:
 Compiling program:
 $ go build main.go
 $ ./main 
+Once compiled - then further changes do not need another build - just run 'go run <file_name>'
+$ go run main.go
+Online Doc: go doc <package_name>
+$ go doc fmt 
 
 
 
