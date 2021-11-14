@@ -6,6 +6,12 @@ import (
     "math/rand"
 )
 
+
+// Functions
+func multiplier(x int32, y int32) int32 {
+  return x * y
+}
+
 func main() {
     // Single line comments.
     /*
@@ -93,4 +99,5 @@ func main() {
     // with seeding:
     rand.Seed(time.Now().UnixNano())
     fmt.Println(rand.Intn(100))
+
 }
