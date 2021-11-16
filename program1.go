@@ -100,4 +100,12 @@ func main() {
     rand.Seed(time.Now().UnixNano())
     fmt.Println(rand.Intn(100))
 
+    // Calling functions
+    // func xyz(x int, y string, z bool) (int, string) --> takes 3 inputs, returns 2
+    // defer: defer tells Go to run a function, but at the end of the current function
+    // Good for logging, file writing, and other utilities 
+    // Another good example is defining (and defering) disconnecting from db, as soon as you connect!
+    // connectDatabase()
+    // defer disconnectDatabase()
+    
 }
